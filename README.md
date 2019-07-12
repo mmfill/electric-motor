@@ -1,8 +1,11 @@
 # electric-motor
 
+The github repository can be found here:
+https://github.com/mmfill/electric-motor.git
 The blog can be found here:
 https://medium.com/@matthias.fill/how-to-improve-the-electric-car-250cd92f2793
 
+Short description:
 Looking at the data from Paderborn Universität to explain motor temperature and torque of an electric motor by other parameters.
 The data can be found here:
 https://www.kaggle.com/wkirgsn/electric-motor-temperature
