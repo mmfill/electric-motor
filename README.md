@@ -2,29 +2,43 @@
 
 The github repository can be found here:
 https://github.com/mmfill/electric-motor.git
+
 The blog can be found here:
 https://medium.com/@matthias.fill/how-to-improve-the-electric-car-250cd92f2793
 
 Short description:
+
 Looking at the data from Paderborn Universität to explain motor temperature and torque of an electric motor by other parameters.
+
 The data can be found here:
 https://www.kaggle.com/wkirgsn/electric-motor-temperature
 
 Needed packages in Python3:
+
 import pandas as pd
+
 import numpy as np
+
 import matplotlib.pyplot as plt
+
 import seaborn as sns
+
 import random
+
 from sklearn.linear_model import LinearRegression
+
 from sklearn.model_selection import train_test_split
+
 from sklearn.metrics import r2_score
 
+
 files in repository:
+
 - electric-motor.ipynb
   Jupyter notebook
 
 Motivation:
+
 Personal: I had to to a project for the Udacity Data Science Nanodegree. I chose the dataset of the electric motor, because the topic interests me, but I did not know a lot about.
 General: Internal parameters like temperature and torque are important features to optimize the efficiency of an electric motor. But they are hard to measure in a driving vehicle. Can we predict both features with "outside" and easy-to-measure parameters like outside temperature, current or voltage? For this data was collected at 2Hz for different runs which lasted 1-6 hours.
 
